@@ -2,10 +2,11 @@
   exports.draw = function draw (Settings, CenterX, CenterY, outerRadius) {
     g.setColor(Settings.Foreground === 'Theme' ? Theme.fg : Settings.Foreground || '#000000');
 
-    if (Settings.Font == null) {
-      g.setFont('Vector', 22);
-    } else {
-      g.setFont(Settings.Font, Settings.FontScale || 1);
+    switch (Settings.Font) {
+      case null:
+      case undefined: g.setFont('Vector', 22); break;
+      case 'custom':  break;
+      default:        g.setFont(Settings.Font, Settings.FontScale || 1);
     }
 
     let roman = Settings.romanNumerals;
