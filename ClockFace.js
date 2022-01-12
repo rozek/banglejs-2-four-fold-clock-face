@@ -1,4 +1,4 @@
-(function () {
+;(function () {
   exports.draw = function draw (Settings, CenterX, CenterY, outerRadius) {
     g.setColor(Settings.Foreground === 'Theme' ? g.theme.fg : Settings.Foreground || '#000000');
 
