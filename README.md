@@ -2,7 +2,7 @@
 
 a simple clock face with numbers 3, 6, 9 and 12 for analog clocks on a Bangle.js 2
 
-> **Important Note**: this module has been renamed to [banglejs-2-four-numbered-clock-face](https://github.com/rozek/banglejs-2-four-numbered-clock-face). Please do no longer use this repository but switch to the new one instead!
+> **Important Note: this module has been renamed to [banglejs-2-four-numbered-clock-face](https://github.com/rozek/banglejs-2-four-numbered-clock-face). Please do no longer use this repository but switch to the new one instead!**
 
 This module draws a face with the numbers 3, 6, 9 and 12 for an analog clock running on a [Bangle.js 2](https://www.espruino.com/Bangle.js2).
 
